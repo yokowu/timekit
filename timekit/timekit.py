@@ -37,7 +37,6 @@ class TimeKit:
         d = datetime.now()
         return cls(d)
 
-
     @classmethod
     def utcnow(cls):
         d = datetime.utcnow()

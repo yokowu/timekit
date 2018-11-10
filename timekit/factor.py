@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class TimeKitFactor:
 
     def __init__(self, timekit):
@@ -9,5 +10,5 @@ class TimeKitFactor:
     def now(self):
         return self.timekit.now()
 
-    def utimekitnow(self):
-        return self.timekit.utimekitnow()
+    def utcnow(self):
+        return self.timekit.utcnow()
