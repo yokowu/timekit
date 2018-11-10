@@ -1,5 +1,5 @@
 # timekit Simple, easy-to-use time converter
-============================================
+
 supports Python3
 
 Installation
