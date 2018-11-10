@@ -11,21 +11,25 @@ pip3 install timekit
 Example
 -------
 
+### str to timestamp
 ``` {.sourceCode .python}
 >>> import timekit
-str to timestamp
 >>> t = timekit.get('2018-01-01 15:34:34')
 >>> t.timestamp
 1514792074.0
+```
 
-timestamp to str
+### timestamp to str
+``` {.sourceCode .python}
 >>> t = timekit.get(1514792074)
 >>> t.strftime()
 '2018-01-01 15:34:34'
 >>> t.strftime('%Y-%d-%m')  # You can specify the format
 '2018-01-01'
+```
 
-get current time
+### get current time
+``` {.sourceCode .python}
 >>> t = timekit.now()
 >>> t.timestamp
 1541815100.0
